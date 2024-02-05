@@ -1,0 +1,102 @@
+body {
+    background-color: rgb(71, 52, 71);
+    flex-direction: column;
+    display: flex;
+    font-family: "Comic Sans MS", cursive;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  input,
+  textarea,
+  button,
+  select {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background: rgb(60, 48, 60);
+    color: white;
+    border: 2px solid rgb(107, 87, 107);
+  
+    &::placeholder {
+      color: inherit;
+    }
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  .chungtainer {
+    width: min(100%, 50rem);
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  form {
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  form input,
+  form select,
+  form textarea,
+  form button {
+    margin: 5px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    color: white;
+  }
+  
+  table,
+  th,
+  td {
+    border: 1px solid #b595af;
+    display:flex;
+    flex-direction: column;
+  }
+  
+  thead,
+  tbody {
+    background-color: rgb(107, 87, 107);
+  }
+  
+  th,
+  td {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    border-spacing: 0;
+  }
+  
+  th,
+  td {
+    text-align: left;
+  }
+  
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  .foundChungus {
+    display: flex !important;
+  }
+  
+  .scrolltainer {
+    overflow-x: scroll;
+  }
+  
